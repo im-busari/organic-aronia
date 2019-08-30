@@ -7,7 +7,7 @@ import * as serviceWorker from './serviceWorker';
 import {I18nextProvider} from 'react-i18next';
 import i18next from 'i18next';
 
-import common_de from "./translations/de/common.json";
+import common_bg from "./translations/bg/common.json";
 import common_en from "./translations/en/common.json";
 
 i18next.init({
@@ -17,8 +17,8 @@ i18next.init({
         en: {
             common: common_en               // 'common' is our custom namespace
         },
-        de: {
-            common: common_de
+        bg: {
+            common: common_bg
         },
     },
 });

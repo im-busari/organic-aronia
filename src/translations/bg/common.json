@@ -1,0 +1,11 @@
+{
+    "welcome": {
+        "title": "Добре дошли {{framework}}",
+        "intro": "Това сме ние"
+    },
+    "navbar": {
+        "home": "Начало",
+        "products": "Продукти",
+        "about": "За нас"
+    }
+}

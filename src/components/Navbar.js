@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import logo from '../images/logo-long.jpg'
 //  import Logo from '../logo.svg'
 
 export default function Navbar(props) {
@@ -7,11 +8,11 @@ export default function Navbar(props) {
     const { t, i18n } = props
 
     return (
-        <nav className="navbar navbar-expand-md navbar-light bg-light fixed-top">
+        <nav className="navbar navbar-expand-md navbar-light bg-white fixed-top">
             <div className="container">
 
                 <Link className="navbar-brand" to='/'> 
-                    L O G O
+                    <img src={logo} alt='Organic Aronia LTD, Bulgaria' className='navbar-logo' />
                 </Link>
 
                 <button className="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarResponsive" 

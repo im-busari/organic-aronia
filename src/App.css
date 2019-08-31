@@ -1,7 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great|Julius+Sans+One&display=swap');
 
+
+.navbar-logo {
+  height: 7vh;
+}
+
+/* --------- HEADER ------------- */
+
 .carousel-item {
-  height: 70vh;
+  height: 80vh;
   min-height: 350px;
   font-family: 'Fredericka the Great', cursive;
   background: no-repeat center center scroll;
@@ -19,8 +26,6 @@
   -moz-transform-style: preserve-3d;
   transform-style: preserve-3d;
 }
-
-/* --------- HEADER ------------- */
 
 .scroll-image-one {
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), 

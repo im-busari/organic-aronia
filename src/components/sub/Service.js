@@ -6,7 +6,7 @@ export default function Service(props) {
     const {stylingClass, topic, content } = props
 
     return (
-        <div className="col-md-4">
+        <div className="col-md-4 mb-5">
             <span className="fa-stack fa-4x">
                 <i className="fas fa-circle fa-stack-2x text-success"></i>
                 <i className={stylingClass}></i>

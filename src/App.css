@@ -5,6 +5,18 @@
   height: 7vh;
 }
 
+.interesting-image {
+  height: 500px;
+  min-height: 200px;
+  background: no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), 
+  url('./images/interesting.JPG') center/cover no-repeat;
+}
+
 /* --------- HEADER ------------- */
 
 .carousel-item {
@@ -43,6 +55,16 @@
 }
 
 /* ---------------  HEADER  END -------- */
+
+
+@media screen and (max-width: 1000px) {
+
+  .interesting-image {
+    height: 30%;
+  }
+
+}
+
 
 @media screen and (max-width: 768px) {
 

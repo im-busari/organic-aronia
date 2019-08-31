@@ -3,7 +3,7 @@ import Service from './sub/Service';
 
 export default function Services() {
     return (
-        <section className="page-section mt-5 pt-5">
+        <section className="page-section pt-5 bg-light">
             <div className="container">
             <div className="row pb-5">
                 <div className="col-lg-12 text-center">

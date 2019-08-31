@@ -5,9 +5,10 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 
 import './App.css';
 
-import { withTranslation, Trans } from 'react-i18next';
+import { withTranslation } from 'react-i18next';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
+import "@fortawesome/fontawesome-free/css/all.min.css";
 
 class App extends Component {
 
@@ -24,23 +25,7 @@ class App extends Component {
           <Route exact path="/" component={() => <Home t={t} />} />
         </Switch>
       </Router>
-
       
-    //   <div className="App">
-    //   <header className="App-header">
-
-    //         <Navbar t={t} i18n={i18n}/>
-
-    //     <h1 className="App-title">
-    //         { t('welcome.title', { framework: "Organic Aronia, Bulgaria LTD" }) }
-    //     </h1>
-        
-    //       <Trans i18nKey='welcome.intro'>
-    //           To get started, edit <code>src/App.js</code> and save to reload.
-    //       </Trans>
-        
-    //   </header>
-    // </div>
     )
   }
 }

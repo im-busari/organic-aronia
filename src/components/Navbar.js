@@ -42,7 +42,7 @@ export default function Navbar(props) {
                         </li>
                         <li className="nav-item pr-3 pl-3 dropdown">
                             <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <span></span>
+                                <i class="fas fa-globe-europe"></i>
                             </a>
                             <div className="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <a className="dropdown-item" onClick={() => i18n.changeLanguage('bg')}>

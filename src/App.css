@@ -38,3 +38,11 @@
 }
 
 /* ---------------  HEADER  END -------- */
+
+@media screen and (max-width: 768px) {
+
+  .carousel-item {
+    height: 50vh;
+  }
+
+}

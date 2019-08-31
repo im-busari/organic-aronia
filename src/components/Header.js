@@ -1,5 +1,5 @@
 import React from 'react'
-import ImageScroll from './Header/ImageScroll';
+import ImageScroll from './sub/ImageScroll';
 import { Link } from 'react-router-dom'
 
 export default function Header() {

@@ -6,6 +6,7 @@
     "navbar": {
         "home": "Начало",
         "products": "Продукти",
-        "about": "За нас"
+        "about": "За нас",
+        "contacts": "Контакти"
     }
 }

@@ -8,7 +8,7 @@ export default function Navbar(props) {
     const { t, i18n } = props
 
     return (
-        <nav className="navbar navbar-expand-md navbar-light bg-white fixed-top">
+        <nav className="navbar navbar-expand-md navbar-light bg-white fixed-top shadow-lg p-3 mb-5">
             <div className="container">
 
                 <Link className="navbar-brand" to='/'> 
@@ -39,6 +39,11 @@ export default function Navbar(props) {
                         <li className="nav-item pr-3 pl-3">
                             <Link to='/about' className="nav-link"> 
                                 { t('navbar.about') }
+                            </Link>
+                        </li>
+                        <li className="nav-item pr-3 pl-3">
+                            <Link to='/contacts' className="nav-link"> 
+                                { t('navbar.contacts') }
                             </Link>
                         </li>
                         <li className="nav-item pr-3 pl-3 dropdown">

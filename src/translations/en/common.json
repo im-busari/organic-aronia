@@ -6,6 +6,7 @@
     "navbar": {
         "home": "Home",
         "products": "Products",
-        "about": "About"
+        "about": "About",
+        "contacts": "Contacts"
     }
 }

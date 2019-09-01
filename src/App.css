@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great|Julius+Sans+One&display=swap');
 
+.bg-black {
+  background-color: #333333;
+}
 
 .navbar-logo {
   height: 7vh;

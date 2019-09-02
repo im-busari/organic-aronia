@@ -8,5 +8,61 @@
         "products": "Products",
         "about": "About",
         "contacts": "Contacts"
+    },
+
+    "home": {
+
+        "header": {
+            "topicOne": "Organic Aronia",
+            "subtopicOne": "LTD, Bulgaria",
+
+            "topicTwo": "10+ years of experience",
+            "subtopicTwo": "And numerous smiles on our clients' faces. ",
+
+            "topicThree": "Explore our Products",
+            "subtopicThree": "Whether you are Retail Client or a Wholesale one, we have an offer for you.",
+            "button": "Products"
+        },
+
+        "services": {
+
+            "heading": "About the product",
+
+            "headline-one": "Healthy Bomb!",
+            "text-one-li-one": "Normalizes blood pressure & increases metabolism.",
+            "text-one-li-two": "Strenghtens immune system & accelerates peristalsis",
+            "text-one-li-three": "Detoxifying effect.",
+
+            "headline-two": "100% Organic",
+            "text-two": "Our products come from the nature to your front door. We do not use pesticides and fertilizers when growing aronia's shrubs.",
+
+            "headline-three": "Certified",
+            "text-three": "Our products have been carefully inspected and certified by Balkan Biocert. You can check our certificate from the following link: http://blah.com" 
+        
+        },
+
+        "interesting": {
+
+            "heading": "Did you know..?",
+
+            "p-one": "Overwhelming presence of antioxidants in aronia helps preventing and reducing the risk of diseases caused by oxidative stress. Maintaining high elasticity and permeability of normal blood vessel walls, chokeberry juice lowers blood pressure, purifies the vascular wall of atherosclerotic plaques. Fresh juice aronia, taken in 50 ml three times a day has an excellent clinically proven effect against hypertension. It is invaluable for prophylactic and rehabilitation after stroke, heart attack and other diseases of the cardiovascular system.",
+            "p-two": "The aronia berries is characterized by a real richness of vitamins and minerals. The highest content is of vitamin P. Significant is the amount of potassium (K), calcium (Ca), phosphorus (P), magnesium (Mg), iron (Fe) and among the trace elements the best provided are iodine (I), manganese (Mn), copper (Cu), molybdenum (Mu). Not fewer are the organic acids - citric, malic and succinic. Representative is the amount of pectin, tannins and coloring matter.",
+            
+            "button": "Grab your superfood today!"
+
+        },
+
+        "footer": {
+
+            "copyrights": "Organic Aronia LTD, Bulgaria 2019. All Rights Reserved.",
+
+            "link-one": "About",
+            "link-two": "Contacts",
+            "link-three": "Gallery",
+            "link-four": "Organic Farming",
+            "link-five": "Aronia's Benefits"
+
+        }
+
     }
 }

@@ -12,12 +12,12 @@ export default class Home extends Component {
 
         return (
             <>
-                <Header />
-                <Services />
+                <Header t={t} />
+                <Services t={t} />
 
-                <Interesting />
+                <Interesting t={t} />
 
-                <Footer />
+                <Footer t={t} />
             </>
         )
     }

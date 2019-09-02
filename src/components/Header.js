@@ -2,7 +2,10 @@ import React from 'react'
 import ImageScroll from './sub/ImageScroll';
 import { Link } from 'react-router-dom'
 
-export default function Header() {
+export default function Header(props) {
+
+    const { t } = props
+
     return (
         <header>
             <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel" data-interval="8000">
@@ -17,23 +20,26 @@ export default function Header() {
 
                     {/* Slide One */}
                     <ImageScroll 
+                        t={t}
                         styling={"carousel-item active scroll-image-one"} 
-                        topic='Organic Aronia'
-                        subtopic='LTD, Bulgaria'
+                        topic={ t('home.header.topicOne') }
+                        subtopic={ t('home.header.subtopicOne') }
                         noButton={true} />
 
                     {/* Slide Two */}
                     <ImageScroll 
+                        t={t}
                         styling={"carousel-item scroll-image-two"} 
-                        topic='10+ years of experience'
-                        subtopic="And numerous smiles on our clients' faces. "
+                        topic={ t('home.header.topicTwo') }
+                        subtopic={ t('home.header.subtopicTwo') }
                         noButton={true} />                        
 
                     {/* Slide Three */}
                     <ImageScroll 
+                        t={t}
                         styling={"carousel-item scroll-image-three"} 
-                        topic='Explore our Products'
-                        subtopic='Whether you are Retail Client or a Wholesale one, we have an offer for you.'
+                        topic={ t('home.header.topicThree') }
+                        subtopic={ t('home.header.subtopicThree') }
                         noButton={false} /> 
 
                 </div>

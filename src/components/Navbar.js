@@ -32,7 +32,7 @@ export default function Navbar(props) {
                         </li>
 
                         <li className="nav-item pr-3 pl-3">
-                            <Link to='/' className="nav-link"> 
+                            <Link to='/products' className="nav-link"> 
                                 { t('navbar.products') }
                             </Link>
                         </li>

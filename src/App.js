@@ -4,11 +4,13 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 
 import './App.css';
+import "@fortawesome/fontawesome-free/css/all.min.css";
 
 import { withTranslation } from 'react-i18next';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
-import "@fortawesome/fontawesome-free/css/all.min.css";
+import Products from './pages/Products';
+import Footer from './components/Footer';
 
 class App extends Component {
 
@@ -21,9 +23,14 @@ class App extends Component {
       <Router>
         <Navbar t={t} i18n={i18n} />
 
+        <section className='content-padding '>
         <Switch>
           <Route exact path="/" component={() => <Home t={t} />} />
+          <Route exact path="/products" component={() => <Products t={t} />} />
         </Switch>
+        </section>
+
+        <Footer t={t} />
       </Router>
       
     )

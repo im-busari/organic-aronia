@@ -51,10 +51,10 @@ export default function Navbar(props) {
                                 <i className="fas fa-globe-europe"></i>
                             </a>
                             <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a className="dropdown-item" onClick={() => i18n.changeLanguage('bg')}>
+                                <a className="dropdown-item cursor" onClick={() => i18n.changeLanguage('bg')}>
                                     Bulgarian
                                 </a>
-                                <a className="dropdown-item" onClick={() => i18n.changeLanguage('en')}>
+                                <a className="dropdown-item cursor" onClick={() => i18n.changeLanguage('en')}>
                                     English
                                 </a>
                             </div>

@@ -1,9 +1,7 @@
 import React, { Component } from 'react'
-import { withTranslation, Trans } from 'react-i18next';
-import Header from '../components/Header';
-import Services from '../components/Services';
-import Footer from '../components/Footer';
-import Interesting from '../components/Interesting';
+import Header from '../components/Home/Header';
+import Services from '../components/Home/Services';
+import Interesting from '../components/Home/Interesting';
 
 export default class Home extends Component {
     render() {
@@ -16,8 +14,6 @@ export default class Home extends Component {
                 <Services t={t} />
 
                 <Interesting t={t} />
-
-                <Footer t={t} />
             </>
         )
     }

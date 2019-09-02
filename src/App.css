@@ -20,10 +20,17 @@
   url('./images/interesting.JPG') center/cover no-repeat;
 }
 
+.cursor {
+  cursor: pointer;
+}
+.content-padding {
+  margin-top: 12vh;
+}
+
 /* --------- HEADER ------------- */
 
 .carousel-item {
-  height: 80vh;
+  height: 75vh;
   min-height: 350px;
   font-family: 'Bree Serif', serif;
   background: no-repeat center center scroll;

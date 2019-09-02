@@ -14,45 +14,37 @@ export default function ProductList(props) {
                     <div className="card-group m-2 p-2 justify-content-center">
                         <Product 
                             t = {t}
-                            price={ retail ? "12.80 EUR per 3L" : "Contact for more information" }
+                            price={ retail ?  t("products.aronia-juice.retail-price") : t("products.aronia-juice.wholesale-price") }
                             image={ imgJuice }
-                            title="100% Organic Aronia Juice"
-                            content="We offer you 100% cold-pressed and pasteurized chokeberry juice! It has beneficial effects on metabolism, blood formation 
-                            and promotes regeneration of muscle and bone tissue. Aronia juice is suitable for diabetics because of its lack of 
-                            saccharose and high content of sorbitol."
+                            title={ t("products.aronia-juice.title")}
+                            content={ t("products.aronia-juice.content")}
                             learnMore="/products/aronia-juice"/>
 
                         <Product 
                             t = {t}
-                            price={ retail ? "XX EUR per 1kg" :"1 000.00 EUR per 1 TON" }
+                            price={ retail ? t("products.aronia-fresh.retail-price") : t("products.aronia-fresh.wholesale-price") }
                             image={ imgFresh }
-                            title="Fresh Organic Chokeberries"
-                            content="Fresh aronia berries have pleasant taste. They are rich in vitamins and polyphenols 
-                            and are used as natural source of antioxidants in variety of healthy diets. 
-                            Fruits are recommended mainly for the prevention and cotreatment of cardiovascular diseases and dieabetes."
+                            title={ t("products.aronia-fresh.title")}
+                            content={ t("products.aronia-fresh.content")}
                             learnMore="/products/aronia-fresh"/>
                     </div>
 
                     <div className="card-group m-2 p-2 justify-content-center">
                         <Product 
                                 t = {t}
-                                price={ retail ? "XX EUR per 1kg" : "4 600.00 EUR per 1 TON" }
+                                price={ retail ? t("products.aronia-dried.retail-price") : t("products.aronia-dried.wholesale-price") }
                                 image={ imgDried }
-                                title="Dried Organic Aronia"
-                                content="The dried organic chokeberries have all healthy ingredients that are found in the fresh fruit, 
-                                but in higher concentration. Dried fruits are ready for immediate consumption. They can be used for the 
-                                preparation of various dishes and drinks (tea, etc.)."
+                                title={ t("products.aronia-dried.title")}
+                                content={ t("products.aronia-dried.content")}
                                 learnMore="/products/aronia-dried"/>
 
                         <Product 
                                 t = {t}
-                                price={ retail ? "XX EUR per 100g" : "12 500.00 EUR per 1 TON" }
+                                price={ retail ? t("products.aronia-powder.retail-price") : t("products.aronia-powder.wholesale-price") }
                                 image={ imgDried }
-                                title="Organic Aronia Powder"
-                                content="The powder has no preservatives and no color additive. It is made of 100% micronized dried organic aronia. 
-                                Easy to store and use. You can add it to your yoghurt or flour for example. It improves 
-                                the metabolism and strenghtens the immune system."
-                                learnMore="/products/aronia-dried"/>
+                                title={ t("products.aronia-powder.title")}
+                                content={ t("products.aronia-powder.content")}
+                                learnMore="/products/aronia-powder"/>
                     </div>
 
                 </section>

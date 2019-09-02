@@ -19,12 +19,12 @@ export default function Product(props) {
                     <div className="card-body">
                         <h5 className="card-title"> { title } </h5>
 
-                        <h6 className='text-primary'> PRICE: { price }</h6>
+                        <h6 className='text-primary'> { t("products.price-tag") } : { price }</h6>
 
                         <p className="card-text"> { content } </p>
 
-                        <Link to='/contacts' className="btn btn-primary m-2">Buy Now</Link>
-                        <Link to={learnMore} className="btn btn-warning m-2">Learn More</Link>
+                        <Link to='/contacts' className="btn btn-primary m-2"> { t("products.buy-btn") }</Link>
+                        <Link to={learnMore} className="btn btn-warning m-2">{ t("products.learn-btn") }</Link>
                     </div>
                 </div>
 

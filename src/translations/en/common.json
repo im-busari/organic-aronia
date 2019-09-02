@@ -64,5 +64,56 @@
 
         }
 
+    },
+
+
+    "__comment_HOME" :" END OF HOME PAGE TRANSLATION -----------------------------",
+
+
+
+
+    "products": {
+
+        "set-offer": "Choose your offer",
+        "wholesale": "Wholesale Client",
+        "retail": "Retail Client",
+
+        "price-tag": "PRICE",
+        "buy-btn": "Buy Now",
+        "learn-btn": "Learn more",
+
+        "aronia-juice": {
+            
+            "retail-price": "12.80 EUR per 3L",
+            "wholesale-price": "Contact for more information",
+            "title": "100% Organic Aronia Juice",
+            "content": "We offer you 100% cold-pressed and pasteurized chokeberry juice! It has beneficial effects on metabolism, blood formation and promotes regeneration of muscle and bone tissue. Aronia juice is suitable for diabetics because of its lack of saccharose and high content of sorbitol."
+
+        },
+
+        "aronia-fresh": {
+
+            "retail-price": "XX EUR per 1kg",
+            "wholesale-price": "1 000.00 EUR per 1 TON",
+            "title": "Fresh Organic Chokeberries",
+            "content": "Fresh aronia berries have pleasant taste. They are rich in vitamins and polyphenols and are used as natural source of antioxidants in variety of healthy diets. Fruits are recommended mainly for the prevention and cotreatment of cardiovascular diseases and dieabetes."
+        },
+
+        "aronia-dried": {
+            "retail-price": "XX EUR per 1kg",
+            "wholesale-price": "4 600.00 EUR per 1 TON",
+            "title": "Dried Organic Aronia",
+            "content": "The dried organic chokeberries have all healthy ingredients that are found in the fresh fruit, but in higher concentration. Dried fruits are ready for immediate consumption. They can be used for the preparation of various dishes and drinks (tea, etc.)."
+        },
+
+        "aronia-powder": {
+
+            "retail-price":"XX EUR per 100g",
+            "wholesale-price": "12 500.00 EUR per 1 TON",
+            "title": "Organic Aronia Powder",
+            "content": "The powder has no preservatives and no color additive. It is made of 100% micronized dried organic aronia. Easy to store and use. You can add it to your yoghurt or flour for example. It improves the metabolism and strenghtens the immune system."
+
+        }
+
     }
 }

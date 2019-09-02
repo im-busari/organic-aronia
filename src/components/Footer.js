@@ -9,7 +9,7 @@ export default function Footer(props) {
         <footer className="footer bg-light ">
     <div className="container">
       <div className="row pt-5 pb-5">
-        <div className="col-lg-6 h-100 text-center text-lg-left my-auto">
+        <div className="col-lg-8 h-100 text-center text-lg-left my-auto">
           <ul className="list-inline mb-2">
             <li className="list-inline-item">
               <Link to='/about'> { t("home.footer.link-one") } </Link>
@@ -33,7 +33,7 @@ export default function Footer(props) {
           </ul>
           <p className="text-muted small mb-4 mb-lg-0">© { t("home.footer.copyrights")} </p>
         </div>
-        <div className="col-lg-6 h-100 text-center text-lg-right my-auto">
+        <div className="col-lg-4 h-100 text-center text-lg-right my-auto">
           <ul className="list-inline mb-0">
             <li className="list-inline-item mr-3">
               <a href="https://www.facebook.com/OrganicAroniaBG/">

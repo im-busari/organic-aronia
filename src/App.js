@@ -11,6 +11,7 @@ import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import Products from './pages/Products';
 import Footer from './components/Footer';
+import About from './pages/About';
 
 class App extends Component {
 
@@ -27,6 +28,7 @@ class App extends Component {
         <Switch>
           <Route exact path="/" component={() => <Home t={t} />} />
           <Route exact path="/products" component={() => <Products t={t} />} />
+          <Route exact path="/about" component={() => <About t={t} /> } />
         </Switch>
         </section>
 

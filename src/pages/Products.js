@@ -27,7 +27,7 @@ export default class Products extends Component {
         return (
             <div>
                 
-                <HeaderP changeToRetail={this.changeToRetail} changeToWholesale={this.changeToWholesale} t={t} />
+                <HeaderP changeToRetail={this.changeToRetail} changeToWholesale={this.changeToWholesale} text={ t("products.set-header") } />
 
                 <ProductList t={t} retail={this.state.retail} />
             </div>

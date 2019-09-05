@@ -27,7 +27,7 @@
   margin-top: 12vh;
 }
 
-/* --------- HEADER ------------- */
+/* --------- HEADERs ------------- */
 
 .carousel-item {
   height: 75vh;
@@ -64,7 +64,20 @@
   url('./images/header3.JPG') center/cover no-repeat;
 }
 
-/* ---------------  HEADER  END -------- */
+.about-header {
+  height: 75vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), 
+  url('./images/about.JPG') center/cover no-repeat;
+}
+
+
+/* ---------------  HEADERs  END -------- */
 
 
 @media screen and (max-width: 1000px) {

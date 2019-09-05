@@ -8,7 +8,7 @@ export default function Navbar(props) {
     const { t, i18n } = props
 
     return (
-        <nav className="navbar navbar-expand-md navbar-light bg-white fixed-top shadow-lg p-3 mb-5">
+        <nav className="navbar navbar-expand-md navbar-light bg-white fixed-top shadow-sm p-3 mb-5">
             <div className="container">
 
                 <Link className="navbar-brand" to='/'> 

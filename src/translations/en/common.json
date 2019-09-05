@@ -74,12 +74,12 @@
 
     "products": {
 
-        "set-offer": "Choose your offer",
+        "set-header": " * Contact us for more information about the current price of each product. *",
         "wholesale": "Wholesale Client",
         "retail": "Retail Client",
 
         "price-tag": "PRICE",
-        "buy-btn": "Buy Now",
+        "buy-btn": "Order",
         "learn-btn": "Learn more",
 
         "aronia-juice": {

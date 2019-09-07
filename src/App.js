@@ -12,6 +12,7 @@ import Home from './pages/Home';
 import Products from './pages/Products';
 import Footer from './components/Footer';
 import About from './pages/About';
+import Contacts from './pages/Contacts';
 
 class App extends Component {
 
@@ -29,6 +30,7 @@ class App extends Component {
           <Route exact path="/" component={() => <Home t={t} />} />
           <Route exact path="/products" component={() => <Products t={t} />} />
           <Route exact path="/about" component={() => <About t={t} /> } />
+          <Route exact path="/contacts" component={() => <Contacts t={t} />} />
         </Switch>
         </section>
 

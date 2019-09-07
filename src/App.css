@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Bree+Serif&display=swap');
 
+#map {
+  width: 100%;
+  height: 400px;
+  background-color: grey;
+}
+
 .bg-black {
   background-color: #333333;
 }
@@ -30,6 +36,18 @@
   background-size: cover; 
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
   url('./images/aronia-mela.JPG') center/cover no-repeat;
+}
+
+.contacts-header {
+  height: 55vh;
+  min-height: 350px;
+  background: no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
+  url('./images/contacts.JPG') center/cover no-repeat;
 }
 
 .cursor {

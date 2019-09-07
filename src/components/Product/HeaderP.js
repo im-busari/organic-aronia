@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function HeaderP(props) {
 
-    const { changeToRetail, changeToWholesale, text } = props
+    const { text } = props
 
     return (
         <header className="masthead scroll-image-two">

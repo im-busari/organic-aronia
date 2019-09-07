@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 export default function Product(props) {
 
-    const { image, title, content, learnMore, t, price } = props
+    const { image, title, content, learnMore, t } = props
 
     return (
 

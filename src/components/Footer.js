@@ -38,24 +38,24 @@ export default function Footer(props) {
         <div className="col-lg-4 h-100 text-center text-lg-right my-auto">
           <ul className="list-inline mb-0">
             <li className="list-inline-item mr-3">
-              <a href="https://www.facebook.com/OrganicAroniaBG/">
+              <Link to="https://www.facebook.com/OrganicAroniaBG/">
                 <i className="fab fa-facebook fa-2x fa-fw"></i>
-              </a>
+              </Link>
             </li>
             <li className="list-inline-item mr-3">
-              <a href="https://twitter.com/organicaroniabg">
+              <Link to="https://twitter.com/organicaroniabg">
                 <i className="fab fa-twitter-square fa-2x fa-fw"></i>
-              </a>
+              </Link>
             </li>
             <li className="list-inline-item">
-              <a href="#">
+              <Link to="#">
                 <i className="fab fa-instagram fa-2x fa-fw"></i>
-              </a>
+              </Link>
             </li>
             <li className="list-inline-item">
-              <a href="https://www.linkedin.com/company/organic-aronia/about/">
+              <Link to="https://www.linkedin.com/company/organic-aronia/about/">
                 <i className="fab fa-linkedin fa-2x fa-fw"></i>
-              </a>
+              </Link>
             </li>
           </ul>
         </div>

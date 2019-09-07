@@ -1,5 +1,4 @@
 import React from 'react'
-import image from '../../images/interesting.JPG'
 import { Link } from 'react-router-dom'
 
 export default function Interesting(props) {

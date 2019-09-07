@@ -20,6 +20,18 @@
   url('./images/interesting.JPG') center/cover no-repeat;
 }
 
+.aronia-mela {
+  height: 100%;
+  min-height: auto;
+  background: no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
+  url('./images/aronia-mela.JPG') center/cover no-repeat;
+}
+
 .cursor {
   cursor: pointer;
 }
@@ -30,7 +42,7 @@
 /* --------- HEADERs ------------- */
 
 .carousel-item {
-  height: 75vh;
+  height: 85vh;
   min-height: 350px;
   font-family: 'Bree Serif', serif;
   background: no-repeat center center scroll;
@@ -65,7 +77,7 @@
 }
 
 .about-header {
-  height: 75vh;
+  height: 85vh;
   min-height: 350px;
   background: no-repeat center center scroll;
   -webkit-background-size: cover;

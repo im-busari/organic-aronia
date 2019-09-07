@@ -1,15 +1,14 @@
 import React from 'react'
 import PersonCard from '../sub/PersonCard';
-import image from '../../images/avatar.jpeg'
 
 export default function Team(props) {
     const {t} = props
     return (
-        <section className="page-section bg-light pt-5">
+        <section className="page-section bg-light pt-5 pb-5">
 
-        <div class="row mb-4 mb-lg-5 align-items-center">
+        <div class="row  no-gutters mb-4 mb-lg-5 align-items-center">
             <div class="col-lg-2 col-12 text-lg-right text-center pt-lg-0 pb-lg-0 pt-5 pb-5 pl-3 pr-3">
-                <h1 className='text-uppercase'> Our amazing Team</h1>
+                <h1 className='text-uppercase'> Our amazing Family</h1>
             </div>
             <div className="col-lg-10 col-12">
             <div className="pl-3 pr-3">

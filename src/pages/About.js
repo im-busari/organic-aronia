@@ -4,6 +4,8 @@ import Team from '../components/About/Team';
 import OrganicFarming from '../components/About/OrganicFarming';
 import Benefits from '../components/About/Benefits';
 
+import "../components/About/About.css"
+
 export default class About extends Component {
     render() {
 

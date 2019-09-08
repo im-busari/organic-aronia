@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { HashLink as Link } from 'react-router-hash-link';
 
 export default function Footer(props) {
 
@@ -26,11 +26,11 @@ export default function Footer(props) {
             </li>
             <li className="list-inline-item">⋅</li>
             <li className="list-inline-item">
-              <Link to='/organic-farming'>{ t("home.footer.link-four") }</Link>
+              <Link to='/about#organic-farming'>{ t("home.footer.link-four") }</Link>
             </li>
             <li className="list-inline-item">⋅</li>
             <li className="list-inline-item">
-              <Link to='/aronia-benefits'>{ t("home.footer.link-five") }</Link>
+              <Link to='/about#aronia-benefits'>{ t("home.footer.link-five") }</Link>
             </li>
           </ul>
           <p className="text-muted small mb-4 mb-lg-0">© { t("home.footer.copyrights")} </p>

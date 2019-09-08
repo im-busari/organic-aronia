@@ -9,12 +9,12 @@ export default class Contacts extends Component {
         return (
             <div>
                 <header className="contacts-header text-white">
-                        <div className="row align-items-center">
+                        <div className="row no-gutters align-items-center">
                             <div className="col-12 text-center my-5">
                                 
-                            <h1 className="mb-4 text-uppercase mt-5 pt-5"> Contact Us</h1>
+                            <h1 className="mb-4 text-uppercase mt-5 pt-5"> { t("contacts.header") } </h1>
                             <p className="mb-3 lead">
-                                Want to ask us about prices, offers, partnership or just a couple of questions? Do not hesitate to contact us. We would be happy to talk with you!
+                            { t("contacts.sub-header") }
                             </p>
                             
                             </div>
@@ -26,7 +26,7 @@ export default class Contacts extends Component {
 
                     <div className="col-4">
 
-                    <h3> <i className="fas fa-phone-alt"></i> Phone </h3>
+                    <h3> <i className="fas fa-phone-alt"></i> { t("contacts.phone") } </h3>
                     <hr></hr>
 
                         <ul className="list-unstyled lead">
@@ -37,16 +37,16 @@ export default class Contacts extends Component {
                     </div>
                     <div className="col-4">
 
-                        <h3> <i className="fas fa-at"></i> E-mail </h3>
+                        <h3> <i className="fas fa-at"></i> { t("contacts.mail") } </h3>
                         <hr></hr>
                         <p className="lead"> office@organic-aronia-bg.com</p>
 
                     </div>
                     <div className="col-4">
-                        <h3> <i className="fas fa-map-marker-alt"></i>  Address </h3>
+                        <h3> <i className="fas fa-map-marker-alt"></i>  { t("contacts.address.topic") } </h3>
                         <hr></hr>
-                        <p className="lead"> st. Izvan Regulatsia 1, Plachi dol 
-                        <br></br>Dobrich, Bulgaria</p>
+                        <p className="lead"> { t("contacts.address.p-1") } </p>
+                        <p className="lead"> { t("contacts.address.p-2") } </p>
                     </div>
 
                 </div>

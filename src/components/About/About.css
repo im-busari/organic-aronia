@@ -1,0 +1,14 @@
+#tab-button {
+    color: #28a745 !important;
+    font-weight: bold;
+    background-color: none !important;
+}
+
+#tab-button-aronia {
+    color: white !important;
+    font-weight: bold;
+}
+
+#tab-button-aronia.active {
+    background-color: rgba(0, 0, 0, 0.2) !important;
+}

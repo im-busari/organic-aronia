@@ -12,7 +12,7 @@ export default function Service(props) {
                 <i className={stylingClass}></i>
             </span>
             <h4 className="service-heading mt-4 text-uppercase">{topic}</h4>
-            <p className="text-muted mt-3"> { content } </p>
+            { content }
         </div>
     )
 }

@@ -19,7 +19,7 @@ export default function Services(props) {
                     topic={ t("home.services.headline-one")}
                     stylingClass="fas fa-heart fa-stack-1x fa-inverse"
                     content={
-                    <ul className="list-unstyled text-left">
+                    <ul className="text-muted mt-3 list-unstyled text-left">
                         <li>
                             <i className="fas fa-check-square fa-1x"/> { t("home.services.text-one-li-one")}
                         </li>
@@ -36,12 +36,22 @@ export default function Services(props) {
                 <Service 
                     topic={ t("home.services.headline-two")}
                     stylingClass="fas fa-leaf fa-stack-1x fa-inverse"
-                    content={ t("home.services.text-two")} />
+                    content={ 
+                        <p className="text-muted mt-3"> 
+                            { t("home.services.text-two") } 
+                        </p> 
+                        } 
+                        
+                    />
 
                 <Service 
                     topic={ t("home.services.headline-three")}
                     stylingClass="fas fa-award fa-stack-1x fa-inverse"
-                    content={ t("home.services.text-three")} />
+                    content={ 
+                        <p className="text-muted mt-3"> 
+                            { t("home.services.text-three") } 
+                        </p> 
+                        } />
 
             </div>
 

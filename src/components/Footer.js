@@ -1,5 +1,6 @@
 import React from 'react'
 import { HashLink as Link } from 'react-router-hash-link';
+import sourcePDF from '../images/source_bg.pdf'
 
 export default function Footer(props) {
 
@@ -22,15 +23,15 @@ export default function Footer(props) {
             </li>
             <li className="list-inline-item">⋅</li>
             <li className="list-inline-item">
-              <Link to='/gallery'>{ t("home.footer.link-three") }</Link>
-            </li>
-            <li className="list-inline-item">⋅</li>
-            <li className="list-inline-item">
               <Link to='/about#organic-farming'>{ t("home.footer.link-four") }</Link>
             </li>
             <li className="list-inline-item">⋅</li>
             <li className="list-inline-item">
               <Link to='/about#aronia-benefits'>{ t("home.footer.link-five") }</Link>
+            </li>
+            <li className="list-inline-item">⋅</li>
+            <li className="list-inline-item">
+              <a href={sourcePDF} id="link-six" target="_blank" rel="noopener noreferrer">{ t("home.footer.link-six") }</a>
             </li>
           </ul>
           <p className="text-muted small mb-4 mb-lg-0">© { t("home.footer.copyrights")} </p>

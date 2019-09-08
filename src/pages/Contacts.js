@@ -22,9 +22,9 @@ export default class Contacts extends Component {
                 </header>
 
 
-                <div className="row m-5 text-left">
+                <div className="row m-md-5 m-2 text-md-left text-center">
 
-                    <div className="col-4">
+                    <div className="col-md-4 col-12 mt-md-0 mt-5 ">
 
                     <h3> <i className="fas fa-phone-alt"></i> { t("contacts.phone") } </h3>
                     <hr></hr>
@@ -35,14 +35,14 @@ export default class Contacts extends Component {
                         </ul>
 
                     </div>
-                    <div className="col-4">
+                    <div className="col-md-4 col-12 mt-md-0 mt-5">
 
                         <h3> <i className="fas fa-at"></i> { t("contacts.mail") } </h3>
                         <hr></hr>
                         <p className="lead"> office@organic-aronia-bg.com</p>
 
                     </div>
-                    <div className="col-4">
+                    <div className="col-md-4 col-12 mt-md-0 mt-5">
                         <h3> <i className="fas fa-map-marker-alt"></i>  { t("contacts.address.topic") } </h3>
                         <hr></hr>
                         <p className="lead"> { t("contacts.address.p-1") } </p>

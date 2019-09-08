@@ -35,7 +35,7 @@ export default function OrganicFarming(props) {
                     </div>
                     <div className="tab-pane fade" id="advantages">
                         <p> { t("about.organic-farming.adv.intro") } </p>
-<p> { t("about.organic-farming.adv.ul-head") }
+<p> { t("about.organic-farming.adv.ul-head") } </p>
 <hr></hr>
 <li>    { t("about.organic-farming.adv.li-1") } </li>
 <li>    { t("about.organic-farming.adv.li-2") } </li>
@@ -44,7 +44,6 @@ export default function OrganicFarming(props) {
 
 <li>    { t("about.organic-farming.adv.li-4") } </li>
 
-                        </p>
                     </div>
                 </div>
                 <hr></hr>

@@ -17,7 +17,9 @@ export default function Interesting(props) {
                 <h4 className='mt-4'>{ t("home.interesting.heading") }</h4>
                 <p className="text-black-50 mb-0 mt-5">
                     { t("home.interesting.p-one") }
-                <br></br><hr></hr>
+                </p>
+                    <hr></hr>
+                <p>
                     { t("home.interesting.p-two") }
                 </p>
                 <hr></hr>

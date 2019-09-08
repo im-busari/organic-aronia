@@ -3,6 +3,7 @@ import Product from './Product';
 import imgJuice from '../../images/aronia-juice.JPG'
 import imgFresh from '../../images/aronia-fresh.JPG'
 import imgDried from '../../images/aronia-dried.JPG'
+import imgPowder from '../../images/powder.jpg'
 
 export default function ProductList(props) {
 
@@ -41,7 +42,7 @@ export default function ProductList(props) {
                         <Product 
                                 t = {t}
                                 price={ retail ? t("products.aronia-powder.retail-price") : t("products.aronia-powder.wholesale-price") }
-                                image={ imgDried }
+                                image={ imgPowder }
                                 title={ t("products.aronia-powder.title")}
                                 content={ t("products.aronia-powder.content")}
                                 learnMore="/products/aronia-powder"/>

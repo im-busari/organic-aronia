@@ -114,6 +114,56 @@
             "title": "Organic Aronia Powder",
             "content": "The powder has no preservatives and no color additive. It is made of 100% micronized dried organic aronia. Easy to store and use. You can add it to your yoghurt or flour for example. It improves the metabolism and strenghtens the immune system."
 
+        },
+
+        "sub-pages": {
+
+            "application-h": "Usage",
+            "store-h": "How to store",
+            "note-h": "Note",
+            "note-text": "There is no evidence that the aronia consumption has negative effect on the human health both in healthy and ill individuals.",
+            "infoLink": "Learn more about the health beneficial effects of aronia consumption",
+
+            "no-coloring": "No color additives",
+            "no-cons": "No preservatives",
+            "bio-clean": "Organic product",
+            "no-pest": "No pesticides",
+            "natural-growth": "Natural riping",
+            "no-sugar": "No added sugar",
+            "no-water": "No added water",
+            "no-aroma": "No aromas",
+
+            "dried": {
+
+                "intro": "The dried organic chokeberries are easy for storage and consumption. They taster bitter-sweet, and are wonderful addition to every helathy diet because of their richness of antioxidants.",
+                "applicationText": "The fresh well matured clean chokeberries are let to dry in suitable environment. After the process of drying has finished, the dried chokeberries are ready for consumption. They can be used for the preparation of various dishes and jams. In the gastronomy it is also used as natural source of strong purple color pigment. Most of the healthy ingredients of the chokeberries remain in the dried fruit. That is why its benefits for the human health are comparable with those induced by the consumption of others aronia products (fresh, juice, etc.). Aronia berries are recommended for cotreatment of various diseases such as diabetes, cardiovascular diseases, metabolic syndrome and others.",
+                "storeText": "Store in dry and cool places.",
+                "recipesHead": "Recipe",
+                "recipesSubHead": "Aronia berries tea: " ,
+                "recipesText": "First, infuse 1 tablespoon crushed dried fruit in 250ml boiling water. Then wait for about 5 minutes and filter the tea. You can mix it usually also with green or black tea."
+
+            },
+
+            "fresh": {
+
+                "intro": "Fresh organic aronia berries are the fruit of plants, grown on the best agricultural land in Bulgaria, the black soil of Dobrudzha.",
+                "applicationText": "Fresh aronia berries have a pungent but pleasant sweet taste. They are rich in vitamins and polyphenols and are used as natural source for antioxidants. Fruits are recommended for the prevention and cotreatment of mainly cardiovascular diseases, and diabetes type 2.",
+                "storeText": "Unlike other fruits the chokeberries can be stored for several weeks without special requirements for the air temperature. Placed in ordinary crates, in well-ventilated place at room temperature, the aronia berries do not rot or get moldy but. They rather dry gradually. If you want the fruit to stay fresh for longer, put them in the refrigerator."
+            },
+
+            "juice": {
+                "intro": "We offer you a high-quality product: 100% cold-pressed and pasteurized chokeberry juice!",
+                "applicationText": "The chokeberry juice has beneficial effects on the metabolism, the process of blood formation and the vitality of the body. Its regular consumption can lead to lowering of the blood pressure and blood sugar levels. Aronia juice is suitable for diabetics because of its lack of saccharose and high content of sorbitol. The antioxidants (vitamins, polyphenols) reduce the oxidative stress, caused for example by unhealthy diets, extreme physical/psychical exhaustion or radio- and chemotherapy. The chokeberry juice has benefical effects on people with high LDL-cholesterol levels (a.k.a. bad cholesterol) in the blood. Its consumption can slow down the building of atherogenic plaques on the walls of the blood vessels and thereby play important role in the prevention of cardiovascular diseases.",
+                "storeText": "Store in dry and well-ventilated area at 4 ° C to 20 ° C. The back-in-box allows you to use this product for several months without it getting rotten. After you have opened the box, do not turn it around but rather leave it in the same position (see picture above) till you finish the juice. This way it is not possible for air to enter into the juice and it will retain its good quality longer.",
+                "noteText": "Excessive consumption of the chokeberry juice can lead to rapid decrease in the blood pressure and eventually cause nausea. Therefore the recommendation (even for the cotreatment of high blood pressure) is to drink about 50 ml three times a day."
+            },
+
+            "powder": {
+                "intro": "The organic aronia powder has no preservatives and no color additives. It is made of 100% micronized dried organic aronia.",
+                "applicationText": "The aronia powder can be added to yoghurt or flour (for different cakes). It improves the nutritional quality of different dishes and renders them unique taste and colour. The aronia powder is easily absorbed in the gastrointestinal tract. It strenghtens the organism and normalizes the its metabolism. Various tissues are being positively influenced by the consumption of aronia. Its use is being strongly recommended for people suffering from diabetes, cardiovascular diseases and/or metabolic syndrome.",
+                "app_p": "Recommended dose: 2 times daily as aftermeal mixed with yoghurt.",
+                "storeText": "Store in dry and ventilated place."
+            } 
         }
 
     },

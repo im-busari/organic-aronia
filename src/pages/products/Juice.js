@@ -1,5 +1,5 @@
 import React from 'react'
-import learnMoreDoc from '../../images/aronia.pdf'
+import LearnMore from '../../components/Product/LearnMore'
 import juiceImg from '../../images/aronia-juice.JPG'
 import bushImg from '../../images/juice.jpg'
 
@@ -8,45 +8,24 @@ export default function Juice(props) {
     const { t } = props
 
     return (
-        <div className="row bg-white no-gutters py-5 px-2">
 
-            <div className="col-sm-4 col-12 pb-5 px-lg-5 px-1 lead">
-
-                <img src={juiceImg} className="img-fluid p-2 shadow mx-auto d-block" style={{maxWidth: "100%"}} alt="Juice"></img>
-
+        <LearnMore
+            t={t} 
+            ul= {
                 <ul className="list-group list-group-flush py-5">
-                    <li className="list-group-item"> <i className="fas fa-check text-success"></i> Без консерванти </li>
-                    <li className="list-group-item"> <i className="fas fa-check text-success"></i> Без оцветители </li>
-                    <li className="list-group-item"> <i className="fas fa-check text-success"></i> Без добавена захар </li>
-                    <li className="list-group-item"> <i className="fas fa-check text-success"></i> Без добавена вода </li>
-                    <li className="list-group-item"> <i className="fas fa-check text-success"></i> Биологично чист продукт </li>
+                    <li className="list-group-item"> <i className="fas fa-check text-success"></i>  { t("products.sub-pages.no-cons")} </li>
+                    <li className="list-group-item"> <i className="fas fa-check text-success"></i>  { t("products.sub-pages.no-coloring")} </li>
+                    <li className="list-group-item"> <i className="fas fa-check text-success"></i>  { t("products.sub-pages.no-sugar")} </li>
+                    <li className="list-group-item"> <i className="fas fa-check text-success"></i>  { t("products.sub-pages.no-water")} </li>
+                    <li className="list-group-item"> <i className="fas fa-check text-success"></i>  { t("products.sub-pages.bio-clean")} </li>
                 </ul>
-
-                <img src={bushImg} className="img-fluid p-2 shadow mx-auto d-block" style={{maxWidth: "100%"}} alt="Juice"></img>
-
-            </div>
-
-            <div className="col-sm-8 lead col-12 px-2">
-                <p>
-                    Сокът от арония, който ние Ви предлагаме, е 100% студено пресован сок от биологично отглеждана българска арония.
-                </p>
-
-                <h5> Приложение </h5>
-                <p> Сокът от арония въздейства благоприятно върху обмяната на веществата, кръвообразуването и повишава жизнения тонус. Продължителната му консумация води до намаляване на кръвното налягане и кръвната захар. Сокът е подходящ за диабетици поради липсата на захароза и високото съдържание на сорбитол в аронията. Антиоксидантите в него (витамини, полифеноли) допринасят за по-бързото преборване на вредния оксидативен стрес в организма, причинени напр. от неправилно хранене, прекомерно физическо или психическо натоварване или агресивни лъче- и химиотерапии. Аронията е от полза и за тези, които са натрупали LDL-холестерол (лош холестерол) в кръвта си. Консумацията на арония забавя образуването на атерогенни плаки и допринася към превенцията на сърдечно-съдови заболявания.</p>
-                <a href={learnMoreDoc} id="learnMore" target="_blank" rel="noopener noreferrer"> Научете повече за здравословното действие на аронията. </a>
-                
-                <hr></hr>
-
-                <h5> Съхранение </h5>
-                <p>Сокът от арония се съхранява в хладилника или в сухи и проветриви помещения при температури от 4°C до 20°C. Той може да се консумира в продължение на месеци. Кутията е back-in-box и не позволява обратното всмукване на въздух при сипване. Така в сока не могат да навлязат микроби от въздуха, и доброто качество на сока се запазва за по-дълго време.</p>
-
-                <hr></hr>
-
-                <h5>Забележка</h5>
-                <p> Няма доказателство, че приема на арония повлиява здравето на човека негативно. Популярната препоръка за ограничаване на приема на тази билка при гастрит е необоснована. Учени са наблюдавали дори защитен ефект на приема на арония върху стомашната тъкан при гастрит, индуциран от приема на алкохол (етанол). </p>
-                <p> При прекомерна консумация на сока (напр. >250 мл наведнъж) е възможно да Ви прилошее поради резкия спад на кръвното налягане. Препоръчителните терапевтични дози (при терапия на високо кръвно налягане) са по 50 мл три пъти на ден. </p>
-            </div>
-                        
-        </div>
+            }
+            imageOne={juiceImg}
+            imageTwo={bushImg}
+            intro= { t("products.sub-pages.juice.intro")}
+            applicationText={ t("products.sub-pages.juice.applicationText")}
+            storeText={ t("products.sub-pages.juice.storeText")}
+            noteText2={ t("products.sub-pages.juice.noteText")}
+            />
     )
 }

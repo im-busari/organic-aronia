@@ -1,5 +1,4 @@
 import React from 'react'
-import learnMoreDoc from '../../images/aronia.pdf'
 import driedImg from '../../images/aronia-dried.JPG'
 import bushImg from '../../images/juice.jpg'
 import LearnMore from '../../components/Product/LearnMore'

@@ -13,6 +13,10 @@ import Products from './pages/Products';
 import Footer from './components/Footer';
 import About from './pages/About';
 import Contacts from './pages/Contacts';
+import Juice from './pages/products/Juice';
+import Fresh from './pages/products/Fresh';
+import Dried from './pages/products/Dried';
+import Powder from './pages/products/Powder';
 
 class App extends Component {
 
@@ -44,6 +48,12 @@ class App extends Component {
         <Switch>
           <Route exact path="/" component={() => <Home t={t} />} />
           <Route exact path="/products" component={() => <Products t={t} />} />
+          <Route exact path="/products/aronia-juice" component={() => <Juice t={t} />} />
+          <Route exact path="/products/aronia-fresh" component={() => <Fresh t={t} />} />
+          <Route exact path="/products/aronia-dried" component={() => <Dried t={t} />} />
+          <Route exact path="/products/aronia-powder" component={() => <Powder t={t} />} />
+
+
           <Route exact path="/about" component={() => <About t={t} /> } />
           <Route exact path="/contacts" component={() => <Contacts t={t} />} />
         </Switch>

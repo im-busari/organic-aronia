@@ -12,3 +12,15 @@
 #tab-button-aronia.active {
     background-color: rgba(0, 0, 0, 0.2) !important;
 }
+
+.about-header {
+    height: auto;
+    min-height: 85vh;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), 
+    url('../../images/about.JPG') center/cover no-repeat;
+  }

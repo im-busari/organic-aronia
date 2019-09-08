@@ -5,11 +5,11 @@ export default function Benefits(props) {
     const { t } = props 
 
     return (
-        <div className="bg-black aronia-mela text-white pl-5 pr-5" id="aronia-benefits">
+        <div className="bg-black aronia-mela text-white pl-lg-5 pr-lg-5 pl-2 pr-2" id="aronia-benefits">
 
-            <h1 className="text-left text-uppercase m-5 pt-5 pb-5"> { t("about.aronia.header")} </h1>
+            <h1 className="text-left text-uppercase m-lg-5 pt-5 pb-5"> { t("about.aronia.header")} </h1>
 
-            <ul className="nav nav-tabs m-5 lead">
+            <ul className="nav nav-tabs m-lg-5 lead">
                     <li className="nav-item">
                         <a href="#aronia" className="nav-link active" id="tab-button-aronia" data-toggle="tab"> { t("about.aronia.btn-aronia")} </a>
                     </li>
@@ -23,7 +23,7 @@ export default function Benefits(props) {
                         <a href="#cultivation" className="nav-link" id="tab-button-aronia" data-toggle="tab"> { t("about.aronia.btn-cultivation")} </a>
                     </li>
                 </ul>
-                <div className="tab-content m-5 pb-5 lead">
+                <div className="tab-content m-lg-5 pb-5 lead">
 
                     <div className="tab-pane fade show active" id="aronia">
                         <p> 

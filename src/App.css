@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Bree+Serif&display=swap');
 
-#map {
-  width: 100%;
-  height: 400px;
-  background-color: grey;
-}
 
 .bg-black {
   background-color: #333333;
@@ -92,18 +87,6 @@
 .scroll-image-three {
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), 
   url('./images/header3.JPG') center/cover no-repeat;
-}
-
-.about-header {
-  height: 85vh;
-  min-height: 350px;
-  background: no-repeat center center scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), 
-  url('./images/about.JPG') center/cover no-repeat;
 }
 
 

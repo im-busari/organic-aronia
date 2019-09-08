@@ -8,7 +8,8 @@ export default function OrganicFarming(props) {
         <section className="page-section bg-white pt-5 pb-5" id="organic-farming">
 
         <div className="row no-gutters mb-4 mb-lg-5">
-            <div className="col-12 pl-5 pr-5">
+            <div className="col-12 pl-lg-5 pr-lg-5 pl-md-1 pr-md-1">
+                
             <div className="featured-text pl-3 pr-3 text-left pl-md-5 pr-md-5">
                 <h1 className='mt-4 text-uppercase'> { t("about.organic-farming.header") } </h1>
 

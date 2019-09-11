@@ -7,8 +7,8 @@ export default function Product(props) {
 
     return (
 
-        <div className="col-md-6 col-12 my-2">
-        <div className="card h-100" style={{ maxWidth: '560px', height: "100%"}}>
+        <div className="col-md-6 p-md-4 py-2 p-0 col-12">
+        <div className="row card h-100" style={{ maxWidth: '560px', height: "100%"}}>
 
             <div className="row h-100">
                 <div className="col-xl-6">
@@ -22,8 +22,8 @@ export default function Product(props) {
 
                         <p className="card-text"> { content } </p>
 
-                        <Link to='/contacts' className="btn btn-primary m-2"> { t("products.buy-btn") }</Link>
-                        <Link to={learnMore} className="btn btn-warning m-2">{ t("products.learn-btn") }</Link>
+                        <Link to='/contacts' className="btn btn-primary m-2 shadow text-uppercase"> { t("products.buy-btn") }</Link>
+                        <Link to={learnMore} className="btn btn-warning m-2 shadow text-uppercase">{ t("products.learn-btn") }</Link>
                     </div>
                 </div>
 

@@ -4,13 +4,17 @@
     background-color: none !important;
 }
 
+#tab-button.active {
+    background-color: #ececec !important;
+}
+
 #tab-button-aronia {
     color: white !important;
     font-weight: bold;
 }
 
 #tab-button-aronia.active {
-    background-color: rgba(0, 0, 0, 0.2) !important;
+    background-color: rgba(225, 225, 225, 0.2) !important;
 }
 
 .about-header {

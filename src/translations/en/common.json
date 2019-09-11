@@ -300,5 +300,13 @@
             "p-2": "Dobrich, Bulgaria"
         }
 
+    },
+
+    "__comment_CONTACTS" :" END OF CONTACTS PAGE TRANSLATION -----------------------------",
+
+    "error": {
+        "title": "Ooops... 404",
+        "subtitle": "The page you are looking for does not exist.",
+        "home": "Home"
     }
 }

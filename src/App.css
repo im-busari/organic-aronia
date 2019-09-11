@@ -5,6 +5,11 @@
   background-color: #333333;
 }
 
+.btn {
+  border-radius: 0px !important;
+  padding: 0.4rem 2rem;
+}
+
 .navbar-logo {
   height: 7vh;
 }
@@ -39,6 +44,18 @@
 
 .contacts-header {
   height: 55vh;
+  min-height: 350px;
+  background: no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
+  url('./images/contacts.JPG') center/cover no-repeat;
+}
+
+.error-header {
+  height: 70vh;
   min-height: 350px;
   background: no-repeat center center;
   -webkit-background-size: cover;

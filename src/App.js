@@ -17,6 +17,7 @@ import Juice from './pages/products/Juice';
 import Fresh from './pages/products/Fresh';
 import Dried from './pages/products/Dried';
 import Powder from './pages/products/Powder';
+import Error from './pages/Error';
 
 class App extends Component {
 
@@ -56,6 +57,7 @@ class App extends Component {
 
           <Route exact path="/about" component={() => <About t={t} /> } />
           <Route exact path="/contacts" component={() => <Contacts t={t} />} />
+          <Route component={() => <Error t={t} />} />
         </Switch>
         </section>
 

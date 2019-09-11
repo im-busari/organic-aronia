@@ -31,7 +31,11 @@ export default function Footer(props) {
             </li>
             <li className="list-inline-item">⋅</li>
             <li className="list-inline-item">
-              <a href={sourcePDF} id="link-six" target="_blank" rel="noopener noreferrer">{ t("home.footer.link-six") }</a>
+              <Link to='/about#about-team'>{ t("home.footer.link-six") }</Link>
+            </li>
+            <li className="list-inline-item">⋅</li>
+            <li className="list-inline-item">
+              <a href={sourcePDF} id="link-six" target="_blank" rel="noopener noreferrer">{ t("home.footer.link-seven") }</a>
             </li>
           </ul>
           <p className="text-muted small mb-4 mb-lg-0">© { t("home.footer.copyrights")} </p>
@@ -39,24 +43,24 @@ export default function Footer(props) {
         <div className="col-lg-4 h-100 text-center text-lg-right my-auto">
           <ul className="list-inline mb-0">
             <li className="list-inline-item mr-3">
-              <Link to="https://www.facebook.com/OrganicAroniaBG/">
+              <a href="https://www.facebook.com/OrganicAroniaBG/" target="__blank" rel="noopener noreferrer" id="fb-page">
                 <i className="fab fa-facebook fa-2x fa-fw"></i>
-              </Link>
+              </a>
             </li>
             <li className="list-inline-item mr-3">
-              <Link to="https://twitter.com/organicaroniabg">
+              <a href="https://twitter.com/organicaroniabg" target="__blank" rel="noopener noreferrer" id="twitter-page">
                 <i className="fab fa-twitter-square fa-2x fa-fw"></i>
-              </Link>
+              </a>
             </li>
             <li className="list-inline-item">
-              <Link to="#">
+              <a href="/#" target="__blank" rel="noopener noreferrer" id="insta-page">
                 <i className="fab fa-instagram fa-2x fa-fw"></i>
-              </Link>
+              </a>
             </li>
             <li className="list-inline-item">
-              <Link to="https://www.linkedin.com/company/organic-aronia/about/">
+              <a href="https://www.linkedin.com/company/organic-aronia/about/" target="__blank" rel="noopener noreferrer" id="linkedin-page">
                 <i className="fab fa-linkedin fa-2x fa-fw"></i>
-              </Link>
+              </a>
             </li>
           </ul>
         </div>

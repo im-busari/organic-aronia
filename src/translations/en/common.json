@@ -6,7 +6,13 @@
     "navbar": {
         "home": "Home",
         "products": "Products",
-        "about": "About",
+        "about": {
+            "main": "About",
+            "history": "History",
+            "bio-farming": "Bio-Farming",
+            "aronia": "Aronia Melanocarpa",
+            "team": "Team"
+        },
         "contacts": "Contacts"
     },
 
@@ -59,9 +65,10 @@
             "link-one": "About",
             "link-two": "Contacts",
             "link-three": "Gallery",
-            "link-four": "Organic Farming",
+            "link-four": "Bio-Farming",
             "link-five": "Aronia's Benefits",
-            "link-six": "Sources"
+            "link-six": "Team",
+            "link-seven": "Sources"
 
         }
 
@@ -178,7 +185,7 @@
 
         "history": {
             "header": "Because We Care",
-            "subheader": "The company was founded by Taiwo & Nina Busari. We live in the small town of Dobrich, northeastern Bulgaria. Our very first plantations in 2008 marks the beginning of our company - Organic Aronia LTD. As keen suporters of the biological production we grow our plants with no pesticides or chemical fertilizers. For several years we make a lot of effort to guarantee quality and safety for the products of aronia we offer you. To date we can deliver fresh and dried aronia, powder and juice. The company, which certificates the organic origin of our fruit is BALKAN BIOCERT."
+            "subheader": "The company was founded by Taiwo & Nina Busari. We live in the small town of Dobrich, northeastern Bulgaria. Our very first plantations in 2008 led to the creation of our company later in 2013 - Organic Aronia LTD. As keen suporters of the biological production we grow our plants with no pesticides or chemical fertilizers. For several years we make a lot of effort to guarantee quality and safety for the products of aronia we offer you. To date we can deliver fresh and dried aronia, powder and juice. The company, which certificates the organic origin of our fruit is BALKAN BIOCERT."
         },
 
         "organic-farming": {

@@ -9,6 +9,10 @@
   height: 7vh;
 }
 
+.dropdown-menu {
+  border-radius: 0px !important;
+}
+
 .interesting-image {
   height: 500px;
   min-height: 200px;

@@ -17,7 +17,7 @@ export default class ImageScroll extends Component {
                 <div className="carousel-caption d-lg-none .d-sm-block text-left">
                     <h2 className="display-6 text-uppercase">{topic}</h2>
                     <p className="lead">{subtopic}</p>
-                    <Link to='about' className={`btn btn-primary text-uppercase pr-4 pl-4 pb-2 pt-2 ${noButton ? 'd-none' : ''}`}> { t('home.header.button') } </Link> 
+                    <Link to='/products' className={`btn btn-primary text-uppercase pr-4 pl-4 pb-2 pt-2 ${noButton ? 'd-none' : ''}`}> { t('home.header.button') } </Link> 
                 </div>
             </div>
         )

@@ -10,7 +10,7 @@ import TaiwoAvatar from '../../images/TaiwoBusari.jpg'
 export default function Team(props) {
     const {t} = props
     return (
-        <section className="page-section bg-white pt-5 pb-5">
+        <section className="page-section bg-white pt-5 pb-5" id="about-team">
 
         <div className="row no-gutters mb-4 mb-lg-5 align-items-center">
             <div className="col-lg-2 col-12 text-lg-right text-center pt-lg-0 pb-lg-0 pt-5 pb-5 pl-3 pr-3">

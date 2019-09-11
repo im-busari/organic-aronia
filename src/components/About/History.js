@@ -6,9 +6,9 @@ export default function History(props) {
 
     return (
         <div>
-            <div className="about-header text-white">
+            <div className="about-header text-white" id="about-history">
             <div className="row no-gutters slider-text js-fullheight align-items-center justify-content-end">
-            <div className="col-md-6 pt-5 pr-lg-5 pl-2 pr-2">
+            <div className="col-md-7 pt-5 pr-lg-5 pl-2 pr-2">
                 
             <h1 className="mb-4" style={{opacity: "0.818578"}}> 
             

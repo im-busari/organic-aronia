@@ -11,8 +11,9 @@ export default function ProductList(props) {
 
     return (
 
-        <section className="py-5">
-                    <div className="card-group m-2 p-2 justify-content-center">
+        <div className="container py-3">
+        <div className="row justify-content-center">
+                    
                         <Product 
                             t = {t}
                             price={ retail ?  t("products.aronia-juice.retail-price") : t("products.aronia-juice.wholesale-price") }
@@ -28,9 +29,9 @@ export default function ProductList(props) {
                             title={ t("products.aronia-fresh.title")}
                             content={ t("products.aronia-fresh.content")}
                             learnMore="/products/aronia-fresh"/>
-                    </div>
+                    
 
-                    <div className="card-group m-2 p-2 justify-content-center">
+                    
                         <Product 
                                 t = {t}
                                 price={ retail ? t("products.aronia-dried.retail-price") : t("products.aronia-dried.wholesale-price") }
@@ -46,8 +47,8 @@ export default function ProductList(props) {
                                 title={ t("products.aronia-powder.title")}
                                 content={ t("products.aronia-powder.content")}
                                 learnMore="/products/aronia-powder"/>
-                    </div>
-
-                </section>
+                    
+                </div>
+                </div>
     )
 }

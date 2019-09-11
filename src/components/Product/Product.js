@@ -7,14 +7,15 @@ export default function Product(props) {
 
     return (
 
-        <div className="card m-2" style={{ maxWidth: '560px', height: "100%"}}>
+        <div className="col-md-6 col-12 my-2">
+        <div className="card h-100" style={{ maxWidth: '560px', height: "100%"}}>
 
-            <div className="row no-gutters">
-                <div className="col-lg-5">
+            <div className="row h-100">
+                <div className="col-xl-6">
                     <img src={ image } className="card-img" style={{objectFit: 'cover', width: '100%', height:'100%'}} alt="..."/>
                 </div>
 
-                <div className="col-lg-7">
+                <div className="col-xl-6">
 
                     <div className="card-body">
                         <h5 className="card-title"> { title } </h5>
@@ -27,6 +28,7 @@ export default function Product(props) {
                 </div>
 
             </div>
+        </div>
         </div>
     )
 }

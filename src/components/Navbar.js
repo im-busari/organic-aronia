@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { HashLink as HashL } from 'react-router-hash-link';
 import logo from '../images/logo-long.jpg'
-//  import Logo from '../logo.svg'
 
 export default function Navbar(props) {
 
@@ -36,21 +36,36 @@ export default function Navbar(props) {
                                 { t('navbar.products') }
                             </Link>
                         </li>
-                        <li className="nav-item pr-3 pl-3">
-                            <Link to='/about' className="nav-link"> 
-                                { t('navbar.about') }
+                        <li className="nav-item pr-3 pl-3 dropdown">
+                            <Link to="/about" className="nav-link dropdown-toggle" id="navbarDropdownAbout" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                { t("navbar.about.main") }
                             </Link>
+                            <div className="dropdown-menu shadow" aria-labelledby="navbarDropdownAbout">
+                                <HashL to='/about#about-history' className="dropdown-item cursor text-capitalize"> 
+                                    { t("navbar.about.history") }
+                                </HashL>
+                                <HashL to='/about#organic-farming' className="dropdown-item cursor text-capitalize"> 
+                                    { t("navbar.about.bio-farming") }
+                                </HashL>
+                                <HashL to='/about#aronia-benefits' className="dropdown-item cursor text-capitalize"> 
+                                    { t("navbar.about.aronia") }
+                                </HashL>
+                                <HashL to='/about#about-team' className="dropdown-item cursor text-capitalize"> 
+                                    { t("navbar.about.team") }
+                                </HashL>
+                            </div>
                         </li>
+                    
                         <li className="nav-item pr-3 pl-3">
                             <Link to='/contacts' className="nav-link"> 
                                 { t('navbar.contacts') }
                             </Link>
                         </li>
                         <li className="nav-item pr-3 pl-3 dropdown">
-                            <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <Link to="#" className="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <i className="fas fa-globe-europe"></i>
-                            </a>
-                            <div className="dropdown-menu" aria-labelledby="navbarDropdown">
+                            </Link>
+                            <div className="dropdown-menu shadow" aria-labelledby="navbarDropdown">
                                 <button className="dropdown-item cursor" id="switch-bg" onClick={() => i18n.changeLanguage('bg')}>
                                     Bulgarian
                                 </button>

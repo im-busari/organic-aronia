@@ -18,8 +18,11 @@ import Fresh from './pages/products/Fresh';
 import Dried from './pages/products/Dried';
 import Powder from './pages/products/Powder';
 import Error from './pages/Error';
+import ScrollToTop from './ScrollToTop';
 
 class App extends Component {
+
+  //HashL links (Footer.js)
 
   componentDidMount() {
     // Decode entities in the URL
@@ -36,6 +39,7 @@ class App extends Component {
     window.onhashchange = scrollToAnchor
   }
 
+
   render() {
 
     const { t, i18n } = this.props;
@@ -44,6 +48,8 @@ class App extends Component {
 
       <Router>
         <Navbar t={t} i18n={i18n} />
+
+        <ScrollToTop>
 
         <section className='content-padding '>
         <Switch>
@@ -62,6 +68,8 @@ class App extends Component {
         </section>
 
         <Footer t={t} />
+
+        </ScrollToTop>
       </Router>
       
     )

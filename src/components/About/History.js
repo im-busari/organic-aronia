@@ -16,7 +16,7 @@ export default function History(props) {
             
             </h1>
             
-            <p className="mb-4" style={{opacity: "0.818578"}}> 
+            <p className="mb-4 lead" style={{opacity: "0.818578"}}> 
             
                 { t("about.history.subheader")}
         

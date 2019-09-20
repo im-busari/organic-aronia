@@ -20,7 +20,6 @@ export default class Error extends Component {
                             </div>
                         </div>
                 </header>
-                <h1></h1>
             </div>
         )
     }

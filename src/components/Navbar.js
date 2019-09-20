@@ -41,16 +41,16 @@ export default function Navbar(props) {
                                 { t("navbar.about.main") }
                             </Link>
                             <div className="dropdown-menu shadow" aria-labelledby="navbarDropdownAbout">
-                                <HashL to='/about#about-history' className="dropdown-item cursor text-capitalize"> 
+                                <HashL to='/about#about-history' className="dropdown-item cursor text-uppercase font-weight-light"> 
                                     { t("navbar.about.history") }
                                 </HashL>
-                                <HashL to='/about#organic-farming' className="dropdown-item cursor text-capitalize"> 
+                                <HashL to='/about#organic-farming' className="dropdown-item cursor text-uppercase font-weight-light"> 
                                     { t("navbar.about.bio-farming") }
                                 </HashL>
-                                <HashL to='/about#aronia-benefits' className="dropdown-item cursor text-capitalize"> 
+                                <HashL to='/about#aronia-benefits' className="dropdown-item cursor text-uppercase font-weight-light"> 
                                     { t("navbar.about.aronia") }
                                 </HashL>
-                                <HashL to='/about#about-team' className="dropdown-item cursor text-capitalize"> 
+                                <HashL to='/about#about-team' className="dropdown-item cursor text-uppercase font-weight-light"> 
                                     { t("navbar.about.team") }
                                 </HashL>
                             </div>
@@ -66,11 +66,14 @@ export default function Navbar(props) {
                                 <i className="fas fa-globe-europe"></i>
                             </Link>
                             <div className="dropdown-menu shadow" aria-labelledby="navbarDropdown">
-                                <button className="dropdown-item cursor" id="switch-bg" onClick={() => i18n.changeLanguage('bg')}>
+                                <button className="dropdown-item cursor text-uppercase font-weight-light" id="switch-bg" onClick={() => i18n.changeLanguage('bg')}>
                                     Bulgarian
                                 </button>
-                                <button className="dropdown-item cursor" id="switch-en" onClick={() => i18n.changeLanguage('en')}>
+                                <button className="dropdown-item cursor text-uppercase font-weight-light" id="switch-en" onClick={() => i18n.changeLanguage('en')}>
                                     English
+                                </button>
+                                <button className="dropdown-item cursor text-uppercase font-weight-light" id="switch-de" onClick={() => i18n.changeLanguage('de')}>
+                                    German
                                 </button>
                             </div>
                         </li>

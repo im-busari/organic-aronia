@@ -6,7 +6,7 @@ export default function PersonCard(props) {
 
     return (
 
-        <div className="col-lg- col-md-4 col-sm-6 mb-lg-0 mb-5 mt-4 text-center ">
+        <div className="col-md-4 col-sm-6 mb-lg-0 mb-5 mt-4 text-center ">
             <div className="mx-auto">
                 <img src={image} width="200px" className="rounded-circle z-depth-1 shadow"
                 alt="Sample avatar"/>

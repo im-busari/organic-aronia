@@ -1,5 +1,6 @@
 import React from 'react'
 import Service from '../sub/Service';
+import Pdf from '../../images/certificate.pdf'
 
 export default function Services(props) {
 
@@ -48,9 +49,12 @@ export default function Services(props) {
                     topic={ t("home.services.headline-three")}
                     stylingClass="fas fa-award fa-stack-1x fa-inverse"
                     content={ 
-                        <p className="text-muted mt-3"> 
-                            { t("home.services.text-three") } 
-                        </p> 
+                        <div>
+                            <p className="text-muted mt-3"> 
+                                { t("home.services.text-three") } <br></br>
+                                <a href={Pdf} target = "_blank" rel="noopener noreferrer" > { t("home.services.text-three-link") } </a>
+                            </p>
+                        </div>
                         } />
 
             </div>

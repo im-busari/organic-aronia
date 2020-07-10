@@ -35,15 +35,17 @@
             "heading": "About the product",
 
             "headline-one": "Healthy Bomb!",
-            "text-one-li-one": "Normalizes blood pressure & increases metabolism.",
-            "text-one-li-two": "Strenghtens immune system & accelerates peristalsis",
-            "text-one-li-three": "Detoxifying effect.",
+            "text-one-li-one": "A natural antioxidant.",
+            "text-one-li-two": "Normalizes blood pressure.",
+            "text-one-li-three": "Strengthens the immune system.",
 
             "headline-two": "100% Organic",
             "text-two": "Our products come from the nature to your front door. We do not use pesticides and fertilizers when growing aronia's shrubs.",
 
             "headline-three": "Certified",
-            "text-three": "Our products have been carefully inspected and certified by Balkan Biocert. You can check our certificate from the following link: http://blah.com" 
+            "text-three": "Annual certification for organic production for 12 years.",
+            "text-three-link": "[Certificate]"
+
         
         },
 
@@ -184,7 +186,7 @@
     "about": {
 
         "history": {
-            "header": "Because We Care",
+            "header": "Because We Believe",
             "subheader": "The company was founded by Taiwo & Nina Busari. We live in the small town of Dobrich, northeastern Bulgaria. Our very first plantations in 2008 led to the creation of our company later in 2013 - Organic Aronia LTD. As keen suporters of the biological production we grow our plants with no pesticides or chemical fertilizers. For several years we make a lot of effort to guarantee quality and safety for the products of aronia we offer you. To date we can deliver fresh and dried aronia, powder and juice. The company, which certificates the organic origin of our fruit is BALKAN BIOCERT."
         },
 

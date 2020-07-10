@@ -14,6 +14,81 @@
   height: 7vh;
 }
 
+.menu {
+  display: none;
+}
+
+
+.sidebar-content a {
+  color: var(--black);
+}
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  background-color: var(--light-grey);
+  overflow-x: hidden;
+  transition: all 0.5s ease 0s;
+}
+
+.sidebar--active {
+  width: 100%;
+}
+
+.sidebar-content {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.sidebar a {
+  padding: 15px;
+  font-size: 36px;
+  display: block;
+  transition: all 0.3s ease 0s;
+}
+
+.sidebar a:hover,
+.sidebar a:focus {
+  color: var(--primary-green);
+}
+.sidebar .close {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+  color: var(--black);
+  cursor: pointer;
+}
+
+@media screen and (max-height: 450px) {
+.sidebar a {
+  font-size: 20px;
+}
+.sidebar .close {   
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+}
+}
+
+@media only screen and (max-width: 1000px) {
+.nav-links,
+.cta {
+  display: none;
+}
+.menu {
+  display: initial;
+}
+}
+
+
 .dropdown-menu {
   border-radius: 0px !important;
 }

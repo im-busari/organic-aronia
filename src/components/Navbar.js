@@ -72,6 +72,9 @@ export default function Navbar(props) {
                                 <button className="dropdown-item cursor text-uppercase font-weight-light" id="switch-en" onClick={() => i18n.changeLanguage('en')}>
                                     English
                                 </button>
+                                <button className="dropdown-item cursor text-uppercase font-weight-light" id="switch-jp" onClick={() => i18n.changeLanguage('jp')}>
+                                    日本語
+                                </button>
                                 {/* <button className="dropdown-item cursor text-uppercase font-weight-light" id="switch-de" onClick={() => i18n.changeLanguage('de')}>
                                     Deutsch
                                 </button> */}

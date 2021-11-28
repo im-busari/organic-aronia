@@ -9,6 +9,7 @@ import i18next from 'i18next';
 
 import common_bg from "./translations/bg/common.json";
 import common_en from "./translations/en/common.json";
+import common_jp from "./translations/jp/common.json";
 
 i18next.init({
     interpolation: { escapeValue: false },  // React already does escaping
@@ -19,6 +20,9 @@ i18next.init({
         },
         bg: {
             common: common_bg
+        },
+        jp: {
+            common: common_jp
         },
     },
 });
